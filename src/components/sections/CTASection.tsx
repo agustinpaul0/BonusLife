@@ -1,6 +1,6 @@
-import { Instagram } from "lucide-react";
 import { FadeInSection } from "./FadeInSection";
 import { Button } from "../Button";
+import { FaInstagram } from "react-icons/fa";
 
 export const CTASection = () => {
   return (
@@ -18,7 +18,7 @@ export const CTASection = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button variant="white" onClick={() => window.open('https://instagram.com/bonus.lifes_', '_blank')}>
-              <Instagram className="w-5 h-5" strokeWidth={2.5} />
+              <FaInstagram className="w-5 h-5" strokeWidth={2.5} />
               Seguir en Instagram
             </Button>
             <a href="#products" className="px-8 py-4 rounded-xl font-bold border-2 border-white text-white hover:bg-white/10 transition-all text-base hover:scale-105 active:scale-95 shadow-lg">
