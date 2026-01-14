@@ -21,9 +21,9 @@ export const CTASection = () => {
               <Instagram className="w-5 h-5" strokeWidth={2.5} />
               Seguir en Instagram
             </Button>
-            <button className="px-8 py-4 rounded-xl font-bold border-2 border-white text-white hover:bg-white/10 transition-all text-base hover:scale-105 active:scale-95 shadow-lg">
+            <a href="#products" className="px-8 py-4 rounded-xl font-bold border-2 border-white text-white hover:bg-white/10 transition-all text-base hover:scale-105 active:scale-95 shadow-lg">
               Ver Productos
-            </button>
+            </a>
           </div>
         </FadeInSection>
       </div>

@@ -49,7 +49,7 @@ export const Footer = () => {
 					<h4 className="text-white font-black mb-4">Contacto</h4>
 					<ul className="space-y-2 text-sm font-semibold">
 						<li className="flex items-center gap-2 hover:text-emerald-500 transition-colors cursor-pointer">
-							<Instagram size={16} /> @bonuslife.oficial
+							<Instagram size={16} /> @bonus.lifes_
 						</li>
 						<li className="flex items-center gap-2 hover:text-emerald-500 transition-colors cursor-pointer">
 							<ShoppingBag size={16} /> Tienda Online
